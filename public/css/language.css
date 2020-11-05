@@ -1,0 +1,34 @@
+/*switch-language*/
+
+.button_lang {
+	color: #8e8e8e;
+	padding: 8px 20px;
+	border-radius: 5px;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+}
+
+.button_lang:hover, .current_lang {
+	color: #449788;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+	cursor: pointer;
+
+}
+
+.current_lang {
+	cursor: pointer;
+}
+
+ul li {
+	/* width: auto; */
+	display: inline;
+}
+
+/*switch-language*/
